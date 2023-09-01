@@ -434,6 +434,8 @@ align-items: center;
     
    }
    .copyright{
+    font-size: 1.3rem;
+    font-weight: 700;
     text-align: right;
     /* margin-left: 1%; */
     /* margin-right: 1%; */
@@ -516,7 +518,7 @@ align-items: center;
     
     position: absolute;
     right: 5vw;
-    top: 4.2vw;
+    top: 8.7vh;
     background-color: rgba(165, 237, 237, 0.5490196078);
     a{
         text-decoration: none;
@@ -526,10 +528,11 @@ align-items: center;
    .gm-a{
     padding-top: 8rem;
     min-height: 50rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
-    display: grid;
-    grid-template-rows: 2fr 6fr;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display:flex;
+    flex-direction: column;
+   
     justify-content: center;
     justify-items: center;
     align-items: start;
